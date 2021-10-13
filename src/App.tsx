@@ -23,7 +23,6 @@ function App() {
         pressure: undefined,
         sunset: undefined
     })
-
     const [error, setError] = useState(" ")
 
     const gettingWeather = async (event: any) => {
@@ -39,22 +38,27 @@ function App() {
                 const country = data.sys.country;
                 const pressure = data.main.pressure;
                 setState({
-                    ...state, temp: temp, city: cityName,
-                    country: country, pressure: pressure,
+                    ...state, temp: temp, city: cityName, country: country, pressure: pressure,
                 })
                 setError("")
+            } else {
+                setError("Error! Enter city name!")
             }
         } catch (e) {
-            setError("Error! Enter the correct city name")
+            // @ts-ignore
+            setState('')
+            setError("Error! Enter the correct city name!")
         }
     }
     return (
-        <div className={"wrapper"}>
+        <div className={"container"}>
+            <div className={"wrapper"}>
             <Info/>
             <div className={"main"}>
                 <Form gettingWeather={gettingWeather}/>
                 <Weather state={state} error={error}/>
             </div>
+        </div>
         </div>
     );
 }
