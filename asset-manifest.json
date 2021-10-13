@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Yuliya14/Weather.git/static/css/main.0160a724.chunk.css",
+    "main.js": "/Yuliya14/Weather.git/static/js/main.d34f5a00.chunk.js",
+    "main.js.map": "/Yuliya14/Weather.git/static/js/main.d34f5a00.chunk.js.map",
+    "runtime-main.js": "/Yuliya14/Weather.git/static/js/runtime-main.268448c8.js",
+    "runtime-main.js.map": "/Yuliya14/Weather.git/static/js/runtime-main.268448c8.js.map",
+    "static/js/2.76621b36.chunk.js": "/Yuliya14/Weather.git/static/js/2.76621b36.chunk.js",
+    "static/js/2.76621b36.chunk.js.map": "/Yuliya14/Weather.git/static/js/2.76621b36.chunk.js.map",
+    "static/js/3.0f402928.chunk.js": "/Yuliya14/Weather.git/static/js/3.0f402928.chunk.js",
+    "static/js/3.0f402928.chunk.js.map": "/Yuliya14/Weather.git/static/js/3.0f402928.chunk.js.map",
+    "index.html": "/Yuliya14/Weather.git/index.html",
+    "static/css/main.0160a724.chunk.css.map": "/Yuliya14/Weather.git/static/css/main.0160a724.chunk.css.map",
+    "static/js/2.76621b36.chunk.js.LICENSE.txt": "/Yuliya14/Weather.git/static/js/2.76621b36.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/Yuliya14/Weather.git/static/media/weather.08fded47.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.268448c8.js",
+    "static/js/2.76621b36.chunk.js",
+    "static/css/main.0160a724.chunk.css",
+    "static/js/main.d34f5a00.chunk.js"
+  ]
+}
