@@ -20,12 +20,12 @@ body {
 .main {
     min-height: 55vh;
     background: #2a6bb1;
-    width: 500px;
+    width: 600px;
     margin: 0 auto;
 }
 
 .info {
-    width: 700px;
+    width: 600px;
     height: 55vh;
     background: url("common/weather.jpg") center center no-repeat;
     background-blend-mode: multiply;
@@ -42,12 +42,12 @@ body {
 }
 
 .form {
-    padding-left: 20px;
     border-top: 2px solid #113a65;
     border-bottom: 2px solid #113a65;
     border-right: 2px solid #113a65;
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 input[type="text"] {
@@ -63,9 +63,20 @@ input[type="text"] {
     font-size: 20px;
     outline: none;
 }
-
+::-webkit-input-placeholder {
+    color:    #fff;
+}
+:-moz-placeholder {
+    color:    #fff;
+}
+::-moz-placeholder {
+    color:    #fff;
+}
+:-ms-input-placeholder {
+    color:    #fff;
+}
 button {
-    width: 80%;
+    width: 40%;
     border: 2px solid #103a65;
     border-bottom: 4px solid #103a65;
     padding: 8px 20px;
@@ -101,7 +112,6 @@ button:active {
 
 .infoWeath {
     padding-left: 5px;
-    width: 60%;
     font-size: 20px;
     color: #fff;
 }
